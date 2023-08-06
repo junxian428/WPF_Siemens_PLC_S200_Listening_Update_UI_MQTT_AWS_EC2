@@ -1,0 +1,17 @@
+﻿<Window x:Class="MQTT_Client_Siemens_PLC_S200.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MQTT_Client_Siemens_PLC_S200"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Button Name="StartListeningButton" Content="Start Listening" Width="100" Height="30" Margin="5" Click="StartListeningButton_Click"/>
+            <Button Name="StopListeningButton" Content="Stop Listening" Width="100" Height="30" Margin="5" Click="StopListeningButton_Click" IsEnabled="False"/>
+            <TextBlock Name="StatusTextBlock" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+
+        </StackPanel>
+    </Grid>
+</Window>

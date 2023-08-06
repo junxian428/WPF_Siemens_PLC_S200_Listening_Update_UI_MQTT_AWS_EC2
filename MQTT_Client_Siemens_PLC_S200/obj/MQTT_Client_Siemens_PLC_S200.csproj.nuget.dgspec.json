@@ -1,0 +1,79 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\junxian428\\source\\repos\\MQTT_Client_Siemens_PLC_S200\\MQTT_Client_Siemens_PLC_S200\\MQTT_Client_Siemens_PLC_S200.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\junxian428\\source\\repos\\MQTT_Client_Siemens_PLC_S200\\MQTT_Client_Siemens_PLC_S200\\MQTT_Client_Siemens_PLC_S200.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\junxian428\\source\\repos\\MQTT_Client_Siemens_PLC_S200\\MQTT_Client_Siemens_PLC_S200\\MQTT_Client_Siemens_PLC_S200.csproj",
+        "projectName": "MQTT_Client_Siemens_PLC_S200",
+        "projectPath": "C:\\Users\\junxian428\\source\\repos\\MQTT_Client_Siemens_PLC_S200\\MQTT_Client_Siemens_PLC_S200\\MQTT_Client_Siemens_PLC_S200.csproj",
+        "packagesPath": "C:\\Users\\junxian428\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\junxian428\\source\\repos\\MQTT_Client_Siemens_PLC_S200\\MQTT_Client_Siemens_PLC_S200\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\junxian428\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "MQTTnet": {
+              "target": "Package",
+              "version": "[4.2.1.781, )"
+            },
+            "MyMQClient": {
+              "target": "Package",
+              "version": "[1.1.10, )"
+            },
+            "S7netplus": {
+              "target": "Package",
+              "version": "[0.20.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
